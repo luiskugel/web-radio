@@ -1,80 +1,66 @@
 [
   {
-    id: 1,
-    name: "SWR1 RP",
-    icon: {
-      uri: "https://www.swr.de/unternehmen/kommunikation/1694428306925%2Clogos-swr1-116~_v-16x9@2dXL_-77ed5d09bafd4e3cf6a5a0264e5e16ea35f14925.jpg",
+    "id": 1,
+    "name": "SWR1 RP",
+    "icon": {
+      "uri": "https://www.swr.de/unternehmen/kommunikation/1694428306925%2Clogos-swr1-116~_v-16x9@2dXL_-77ed5d09bafd4e3cf6a5a0264e5e16ea35f14925.jpg"
     },
-    url: "https://liveradio.swr.de/sw331ch/swr1rp/",
+    "url": "https://liveradio.swr.de/sw331ch/swr1rp/"
   },
   {
-    id: 2,
-    name: "SWR2",
-    icon: {
-      uri: "https://www.swr.de/unternehmen/kommunikation/service/1654687439577%2Clogos-swr2-100~_v-16x9@2dS_-6be50a9c75559ca1aaf1d0b25bae287afdcd877a.png",
+    "id": 2,
+    "name": "SWR2",
+    "icon": {
+      "uri": "https://www.swr.de/unternehmen/kommunikation/service/1654687439577%2Clogos-swr2-100~_v-16x9@2dS_-6be50a9c75559ca1aaf1d0b25bae287afdcd877a.png"
     },
-    url: "https://liveradio.swr.de/sw331ch/swr2/",
+    "url": "https://liveradio.swr.de/sw331ch/swr2/"
   },
   {
-    id: 3,
-    name: "SWR3",
-    icon: {
-      uri: "https://www.swr.de/unternehmen/kommunikation/service/1654687420784%2Clogos-swr3-100~_v-16x9@2dS_-6be50a9c75559ca1aaf1d0b25bae287afdcd877a.png",
+    "id": 3,
+    "name": "SWR3",
+    "icon": {
+      "uri": "https://www.swr.de/unternehmen/kommunikation/service/1654687420784%2Clogos-swr3-100~_v-16x9@2dS_-6be50a9c75559ca1aaf1d0b25bae287afdcd877a.png"
     },
-    url: "https://liveradio.swr.de/sw890cl/swr3/play.aac",
+    "url": "https://liveradio.swr.de/sw890cl/swr3/play.aac"
   },
   {
-    id: 4,
-    name: "SWR4 RP",
-    icon: {
-      uri: "https://www.swr.de/unternehmen/kommunikation/service/1654687433991%2Clogos-swr4-100~_v-16x9@2dS_-6be50a9c75559ca1aaf1d0b25bae287afdcd877a.png",
+    "id": 4,
+    "name": "SWR4 RP",
+    "icon": {
+      "uri": "https://www.swr.de/unternehmen/kommunikation/service/1654687433991%2Clogos-swr4-100~_v-16x9@2dS_-6be50a9c75559ca1aaf1d0b25bae287afdcd877a.png"
     },
-    url: "https://liveradio.swr.de/sw331ch/swr4rp/",
+    "url": "https://liveradio.swr.de/sw331ch/swr4rp/"
   },
   {
-    id: 5,
-    name: "RTL",
-    icon: require("./assets/rtl.png"),
-
-    url: "https://stream.104.6rtl.com/rtl-live/mp3-128/konsole/?sabcsid=3030126349&context=fHA6LTE=",
-  },
-  {
-    id: 6,
-    name: "Test 1",
-    icon: {
-      uri: "https://www.swr.de/unternehmen/kommunikation/1694428306925%2Clogos-swr1-116~_v-16x9@2dXL_-77ed5d09bafd4e3cf6a5a0264e5e16ea35f14925.jpg",
+    "id": 6,
+    "name": "Test 1",
+    "icon": {
+      "uri": "https://www.swr.de/unternehmen/kommunikation/1694428306925%2Clogos-swr1-116~_v-16x9@2dXL_-77ed5d09bafd4e3cf6a5a0264e5e16ea35f14925.jpg"
     },
-    url: "https://liveradio.swr.de/sw331ch/swr1rp/",
+    "url": "https://liveradio.swr.de/sw331ch/swr1rp/"
   },
   {
-    id: 7,
-    name: "Test 2",
-    icon: {
-      uri: "https://www.swr.de/unternehmen/kommunikation/service/1654687439577%2Clogos-swr2-100~_v-16x9@2dS_-6be50a9c75559ca1aaf1d0b25bae287afdcd877a.png",
+    "id": 7,
+    "name": "Test 2",
+    "icon": {
+      "uri": "https://www.swr.de/unternehmen/kommunikation/service/1654687439577%2Clogos-swr2-100~_v-16x9@2dS_-6be50a9c75559ca1aaf1d0b25bae287afdcd877a.png"
     },
-    url: "https://liveradio.swr.de/sw331ch/swr2/",
+    "url": "https://liveradio.swr.de/sw331ch/swr2/"
   },
   {
-    id: 8,
-    name: "Test 3",
-    icon: {
-      uri: "https://www.swr.de/unternehmen/kommunikation/service/1654687420784%2Clogos-swr3-100~_v-16x9@2dS_-6be50a9c75559ca1aaf1d0b25bae287afdcd877a.png",
+    "id": 8,
+    "name": "Test 3",
+    "icon": {
+      "uri": "https://www.swr.de/unternehmen/kommunikation/service/1654687420784%2Clogos-swr3-100~_v-16x9@2dS_-6be50a9c75559ca1aaf1d0b25bae287afdcd877a.png"
     },
-    url: "https://liveradio.swr.de/sw890cl/swr3/play.aac",
+    "url": "https://liveradio.swr.de/sw890cl/swr3/play.aac"
   },
   {
-    id: 9,
-    name: "Test 4",
-    icon: {
-      uri: "https://www.swr.de/unternehmen/kommunikation/service/1654687433991%2Clogos-swr4-100~_v-16x9@2dS_-6be50a9c75559ca1aaf1d0b25bae287afdcd877a.png",
+    "id": 9,
+    "name": "Test 4",
+    "icon": {
+      "uri": "https://www.swr.de/unternehmen/kommunikation/service/1654687433991%2Clogos-swr4-100~_v-16x9@2dS_-6be50a9c75559ca1aaf1d0b25bae287afdcd877a.png"
     },
-    url: "https://liveradio.swr.de/sw331ch/swr4rp/",
-  },
-  {
-    id: 10,
-    name: "Test 5",
-    icon: require("./assets/rtl.png"),
-
-    url: "https://stream.104.6rtl.com/rtl-live/mp3-128/konsole/?sabcsid=3030126349&context=fHA6LTE=",
-  },
+    "url": "https://liveradio.swr.de/sw331ch/swr4rp/"
+  }
 ]
