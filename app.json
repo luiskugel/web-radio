@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "OmaRadio",
+    "name": "Radio",
     "slug": "OmaRadio",
+    "privacy": "unlisted",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,20 +12,34 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.luiskugel.OmaRadio",
+      "requireFullScreen": true,
+      "infoPlist": {
+        "UIBackgroundModes": ["audio"]
+      },
+      "plugins": [
+        [
+          "expo-screen-orientation",
+          {
+            "initialOrientation": "DEFAULT"
+          }
+        ]
+      ]
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.luiskugel.OmaRadio"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "extra": {
+      "eas": {
+        "projectId": "251db732-67b3-4b6d-b26b-9e3188d5ac89"
+      }
     }
   }
 }
