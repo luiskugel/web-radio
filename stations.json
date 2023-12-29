@@ -31,38 +31,38 @@
   },
   {
     "id": 6,
-    "name": "Radio 1",
+    "name": "City Radio München",
     "url": "https://liveradio.swr.de/sw331ch/swr1rp/",
     "textColor": "#fbba00"
   },
   {
     "id": 7,
-    "name": "Radio 2",
+    "name": "Dasbing",
     "url": "https://liveradio.swr.de/sw331ch/swr2/",
     "textColor": "#1b1a18"
   },
   {
     "id": 8,
-    "name": "Radio 3",
+    "name": "Aachen 3",
     "url": "https://liveradio.swr.de/sw890cl/swr3/play.aac",
     "textColor": "#e70135"
   },
   {
     "id": 9,
-    "name": "Radio 4",
+    "name": "Antenne Trier",
     "url": "https://liveradio.swr.de/sw331ch/swr4rp/",
     "textColor": "#86bd24"
   },
   {
     "id": 10,
-    "name": "Radio 5",
-    "url": "https://liveradio.swr.de/sw331ch/swr4rp/",
-    "textColor": "#2450e2"
+    "name": "Energy",
+    "icon": "https://raw.githubusercontent.com/luiskugel/web-radio-app/master/assets/energy.png",
+    "url": "https://liveradio.swr.de/sw331ch/swr4rp/"
   },
   {
     "id": 11,
-    "name": "Radio 6",
-    "url": "https://liveradio.swr.de/sw331ch/swr4rp/",
-    "textColor": "#e224d3"
+    "name": "Gong 6.9",
+    "icon": "https://raw.githubusercontent.com/luiskugel/web-radio-app/master/assets/gong.png",
+    "url": "https://liveradio.swr.de/sw331ch/swr4rp/"
   }
 ]
