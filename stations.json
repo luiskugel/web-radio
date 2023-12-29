@@ -32,31 +32,37 @@
   {
     "id": 6,
     "name": "Radio 1",
-    "url": "https://liveradio.swr.de/sw331ch/swr1rp/"
+    "url": "https://liveradio.swr.de/sw331ch/swr1rp/",
+    "textColor": "#fbba00"
   },
   {
     "id": 7,
     "name": "Radio 2",
-    "url": "https://liveradio.swr.de/sw331ch/swr2/"
+    "url": "https://liveradio.swr.de/sw331ch/swr2/",
+    "textColor": "#1b1a18"
   },
   {
     "id": 8,
     "name": "Radio 3",
-    "url": "https://liveradio.swr.de/sw890cl/swr3/play.aac"
+    "url": "https://liveradio.swr.de/sw890cl/swr3/play.aac",
+    "textColor": "#e70135"
   },
   {
     "id": 9,
     "name": "Radio 4",
-    "url": "https://liveradio.swr.de/sw331ch/swr4rp/"
+    "url": "https://liveradio.swr.de/sw331ch/swr4rp/",
+    "textColor": "#86bd24"
   },
   {
     "id": 10,
     "name": "Radio 5",
-    "url": "https://liveradio.swr.de/sw331ch/swr4rp/"
+    "url": "https://liveradio.swr.de/sw331ch/swr4rp/",
+    "textColor": "#2450e2"
   },
   {
     "id": 11,
     "name": "Radio 6",
-    "url": "https://liveradio.swr.de/sw331ch/swr4rp/"
+    "url": "https://liveradio.swr.de/sw331ch/swr4rp/",
+    "textColor": "#e224d3"
   }
 ]
