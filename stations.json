@@ -30,12 +30,6 @@
     "url": "https://stream.104.6rtl.com/rtl-live/mp3-128/konsole/?sabcsid=3030126349&context=fHA6LTE="
   },
   {
-    "id": 10,
-    "name": "Energy",
-    "icon": "https://raw.githubusercontent.com/luiskugel/web-radio-app/master/assets/energy.png",
-    "url": "https://liveradio.swr.de/sw331ch/swr4rp/"
-  },
-  {
     "id": 6,
     "name": "City Radio München",
     "url": "https://liveradio.swr.de/sw331ch/swr1rp/",
@@ -48,11 +42,18 @@
     "textColor": "#1b1a18"
   },
   {
+    "id": 10,
+    "name": "Energy",
+    "icon": "https://raw.githubusercontent.com/luiskugel/web-radio-app/master/assets/energy.png",
+    "url": "https://liveradio.swr.de/sw331ch/swr4rp/"
+  },
+  {
     "id": 8,
     "name": "Aachen 3",
     "url": "https://liveradio.swr.de/sw890cl/swr3/play.aac",
     "textColor": "#e70135"
   },
+
   {
     "id": 9,
     "name": "Antenne Trier",
