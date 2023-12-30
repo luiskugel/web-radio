@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "Radio",
-    "slug": "OmaRadio",
+    "name": "Senioren-Radio",
+    "slug": "seniorenradio",
     "privacy": "unlisted",
-    "version": "1.0.0",
+    "version": "1.0.4",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -15,30 +15,22 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.luiskugel.OmaRadio",
+      "bundleIdentifier": "com.luiskugel.seniorenradio",
       "requireFullScreen": true,
       "infoPlist": {
         "UIBackgroundModes": ["audio"]
-      },
-      "plugins": [
-        [
-          "expo-screen-orientation",
-          {
-            "initialOrientation": "DEFAULT"
-          }
-        ]
-      ]
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.luiskugel.OmaRadio"
+      "package": "com.luiskugel.seniorenradio"
     },
     "extra": {
       "eas": {
-        "projectId": "251db732-67b3-4b6d-b26b-9e3188d5ac89"
+        "projectId": "583d3769-f1df-4085-b8c0-f95cfa2fe748"
       }
     }
   }
