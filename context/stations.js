@@ -1,12 +1,22 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import React, { useEffect, useState } from "react";
 import { stationsUrl } from "../lib";
+import { Alert } from "react-native";
 
 export const StationsContext = React.createContext();
 
 export default function Stations(props) {
   const [selectedStationIDs, setselectedStationIDs] = useState([]);
   const [stations, setstations] = useState([]);
+  const [radioStationsURL, setRadioStationsURL] = useState(stationsUrl);
+
+  useEffect(() => {
+    AsyncStorage.setItem("radio-stations-url", radioStationsURL).catch((e) => {
+      Alert.alert("Fehler", e.message, [{ text: "OK" }], {
+        cancelable: false,
+      });
+    });
+  }, [radioStationsURL]);
 
   useEffect(() => {
     const timeout = setTimeout(async () => {
@@ -48,13 +58,27 @@ export default function Stations(props) {
       }
     }
     async function fn2() {
-      fetch(stationsUrl)
-        .then((response) => response.json())
-        .then((json) => setstations(json));
+      const url = await AsyncStorage.getItem("radio-stations-url");
+      setRadioStationsURL(url || stationsUrl);
+      return;
     }
-    fn();
-    fn2();
+
+    fn()
+      .then(() => fn2())
+      .then(() => loadAvailableStations());
   }, []);
+
+  async function loadAvailableStations(url) {
+    if (!url) url = radioStationsURL;
+    fetch(url)
+      .then((response) => response.json())
+      .then((json) => setstations(json))
+      .catch((e) => {
+        Alert.alert("Fehler", e.message, [{ text: "OK" }], {
+          cancelable: false,
+        });
+      });
+  }
 
   return (
     <StationsContext.Provider
@@ -65,6 +89,13 @@ export default function Stations(props) {
           selectedStationIDs.includes(station.id)
         ),
         availableStations: stations,
+        setRadioStationsURL: (url) => {
+          setstations([]);
+          setselectedStationIDs([]);
+          setRadioStationsURL(url);
+          loadAvailableStations(url);
+        },
+        radioStationsURL,
       }}
     >
       {props.children}
