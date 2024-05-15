@@ -64,9 +64,7 @@ export default function Stations(props) {
       return;
     }
 
-    fn()
-      .then(() => fn2())
-      .then(() => loadAvailableStations());
+    fn().then(() => fn2());
   }, []);
 
   async function loadAvailableStations(url) {
