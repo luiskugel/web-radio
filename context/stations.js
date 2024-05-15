@@ -8,9 +8,10 @@ export const StationsContext = React.createContext();
 export default function Stations(props) {
   const [selectedStationIDs, setselectedStationIDs] = useState([]);
   const [stations, setstations] = useState([]);
-  const [radioStationsURL, setRadioStationsURL] = useState(stationsUrl);
+  const [radioStationsURL, setRadioStationsURL] = useState(null);
 
   useEffect(() => {
+    if (radioStationsURL === null) return;
     AsyncStorage.setItem("radio-stations-url", radioStationsURL).catch((e) => {
       Alert.alert("Fehler", e.message, [{ text: "OK" }], {
         cancelable: false,

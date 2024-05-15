@@ -13,5 +13,5 @@ export const openURL = (url) => {
 };
 
 export const stationsUrl =
-  "https://raw.githubusercontent.com/luiskugel/web-radio-app/master/stations.json";
+  "https://raw.githubusercontent.com/der-grosse/radio-link-list/master/stations.json";
 export const githubUrl = "https://github.com/luiskugel/web-radio-app/";
